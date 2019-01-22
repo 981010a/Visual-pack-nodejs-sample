@@ -13,6 +13,7 @@
  3. Update the below files to your repective values
 
     - package.json (name, desciption)
+    
     ![Example](/images/packagejson.png)
     - webpack.config.js ('myCustomVisual' 2 places)
     - publish/config.js install.visualConfig
