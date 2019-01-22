@@ -16,6 +16,10 @@
     
     ![Example](images/packagejson.PNG)
     - webpack.config.js ('myCustomVisual' 2 places)
+    - package-lock.json (1)
+    - program.js (1)
+    - publish/config.js (1)
+    - src/quadrant-properties.js (1)
     - publish/config.js install.visualConfig
     - publish/config.js install.authcookie **GIANT WEB ACCESS COOKIE**
     - publish/config.js install.giantUrl **RELATIVE TO AUTH COOKIE**
