@@ -58,8 +58,8 @@ npm run publish
 ## How I install AmChartsv4 webpack dependencies
 *According to [AmCharts](https://www.amcharts.com/docs/v4/getting-started/integrations/using-webpack/):*
  - I put the dependency -"@amcharts/amcharts4": "^4.0.0-beta.64" in package.json
- - Then I run **npm install**
- - Then, I import the AmCharts' scripts in app.js
+ - Then, I run **npm install**
+ - Next, I import the AmCharts' scripts in app.js
  - After that, I run the code using localhost and it is working
  - When comes to publishing to GIANT, the visual pack is not appearing in GIANT after I published 
  (the cookie and URL are correct)
