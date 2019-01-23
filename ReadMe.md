@@ -38,12 +38,11 @@ After logging into GIANT, open web debugger console (press **F12**) and switch t
 | program.js | Development only files. Dump any debugging configuration here for testing purpose |
 
 See [Visual pack documentation](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-pack.md#quadrant-properties-html-js) for more information about quadrant properties HTML and javascript.
-Protip: for additional scripts/style for your visual pack, add the files in the src folder and import in the app.js.
+
+>Protip: for additional scripts/style for your visual pack, add the files in the src folder and import in the app.js.
 
 ## How to Run
 ```bash
---Install all package dependencies
-npm install
 
 --Debug visual application (browser will launch localhost:8080)
 npm run debug 
