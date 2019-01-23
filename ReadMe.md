@@ -11,7 +11,8 @@
  1. Git clone this environment
  2. Delete the .git (and setup your own git)
  3. Update the below files to your repective values
-    *Change all 'myCustomVisual' to your visual name
+ 
+    *Change all 'myCustomVisual' to your visual name*
     - package.json (name, desciption, author)
     - webpack.config.js ('myCustomVisual' 2 places)
     - package-lock.json ('myCustomVisual' 1 place)
