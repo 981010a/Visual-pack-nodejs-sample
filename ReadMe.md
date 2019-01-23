@@ -11,12 +11,12 @@
  1. Git clone this environment
  2. Delete the .git (and setup your own git)
  3. Update the below files to your repective values
-
+    *Change all 'myCustomVisual' to your visual name
     - package.json (name, desciption, author)
-    - webpack.config.js ('myCustomVisual' 2 places, change to your visual name)
-    - package-lock.json ('myCustomVisual' 1 place, change to your visual name)
-    - program.js ('myCustomVisual' 1 place, change to your visual name)
-    - src/quadrant-properties.js ('myCustomVisual 1 place, change to your visual name)
+    - webpack.config.js ('myCustomVisual' 2 places)
+    - package-lock.json ('myCustomVisual' 1 place)
+    - program.js ('myCustomVisual' 1 place)
+    - src/quadrant-properties.js ('myCustomVisual 1 place)
     - publish/config.js (visual name, display name)
     - publish/config.js install.visualConfig
     - publish/config.js install.authcookie **GIANT WEB ACCESS COOKIE**
