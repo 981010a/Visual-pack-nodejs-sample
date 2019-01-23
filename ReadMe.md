@@ -12,17 +12,16 @@
  2. Delete the .git (and setup your own git)
  3. Update the below files to your repective values
 
-    - package.json (name, desciption)
-    
-    ![Example](images/packagejson.PNG)
-    - webpack.config.js ('myCustomVisual' 2 places)
-    - package-lock.json (1)
-    - program.js (1)
-    - publish/config.js (1)
-    - src/quadrant-properties.js (1)
+    - package.json (name, desciption, author)
+    - webpack.config.js ('myCustomVisual' 2 places, change to your visual name)
+    - package-lock.json ('myCustomVisual' 1 place, change to your visual name)
+    - program.js ('myCustomVisual' 1 place, change to your visual name)
+    - src/quadrant-properties.js ('myCustomVisual 1 place, change to your visual name)
+    - publish/config.js (visual name, display name)
     - publish/config.js install.visualConfig
     - publish/config.js install.authcookie **GIANT WEB ACCESS COOKIE**
     - publish/config.js install.giantUrl **RELATIVE TO AUTH COOKIE**
+    Example:http://172.16.53.228/WebSites/Analytics/
 
 ## Development Files
 
@@ -38,6 +37,9 @@
 
 ## How to Run
 ```bash
+--Install all package dependencies
+npm install
+
 --Debug visual application (browser will launch localhost:8080)
 npm run debug 
 
