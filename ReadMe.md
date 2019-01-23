@@ -22,9 +22,9 @@
     - publish/config.js install.authcookie **GIANT WEB ACCESS COOKIE**
     - publish/config.js install.giantUrl **RELATIVE TO AUTH COOKIE**
 
-##How to obtain GIANT web access cookie
+## How to obtain GIANT web access cookie
 
-After logging into GIANT, open web debugger console (press F12) and switch to Network tab. Select one of the network action at the right panel, look for Request Headers of that network action and copy the Cookie value.
+After logging into GIANT, open web debugger console (press **F12**) and switch to **Network** tab. Select one of the network action at the right panel, look for **Request Headers** of that network action and copy the **Cookie** value.
 
 ## Development Files
 
@@ -37,6 +37,8 @@ After logging into GIANT, open web debugger console (press F12) and switch to Ne
 | src/app.scss | main styling of custom visual |
 | program.js | Development only files. Dump any debugging configuration here for testing purpose |
 
+See [Visual pack documentation](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-pack.md#quadrant-properties-html-js) for more information about quadrant properties HTML and javascript.
+Protip: for additional scripts/style for your visual pack, add the files in the src folder and import in the app.js.
 
 ## How to Run
 ```bash
