@@ -22,6 +22,10 @@
     - publish/config.js install.authcookie **GIANT WEB ACCESS COOKIE**
     - publish/config.js install.giantUrl **RELATIVE TO AUTH COOKIE**
 
+##How to obtain GIANT web access cookie
+
+After logging into GIANT, open web debugger console (press F12) and switch to Network tab. Select one of the network action at the right panel, look for Request Headers of that network action and copy the Cookie value.
+
 ## Development Files
 
 | File        | Description            |
