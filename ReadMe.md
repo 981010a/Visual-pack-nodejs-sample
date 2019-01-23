@@ -53,3 +53,5 @@ npm run publish
 --see package.json for other relevant commands
 
 ```
+
+## How I install Amchartv4 webpack dependencies
