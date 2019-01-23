@@ -47,9 +47,9 @@ module.exports = {
     output: path.resolve(__dirname, '../dist/visual.zip'),
     visualConfig: {
       "groupId": "giantsupport",
-      "packageId": "giantsupport.mapPie",
-      "visualName": "mapPie",
-      "displayName": "Map with Pie",
+      "packageId": "giantsupport.myCustomVisual",
+      "visualName": "myCustomVisual",
+      "displayName": "my first custom visual",
     },
     quadrantPropertiesHtml: path.resolve(__dirname, "../publish/visual/quadrant-properties.html"),
     quadrantPropertiesJs: path.resolve(__dirname, "../publish/visual/quadrant-properties.js"),
