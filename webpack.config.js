@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    "mapPie": './src/app.js',
+    "myCustomVisual": './src/app.js',
     "program": './src/program.js'
   },
   output: {
@@ -37,7 +37,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin('dist', {}),
     new MiniCssExtractPlugin({
-      filename: 'mapPie.[contenthash].css'
+      filename: 'myCustomVisual.[contenthash].css'
     }),
     new HtmlWebpackPlugin({      
       template: './src/index.html',
