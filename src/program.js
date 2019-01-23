@@ -1,4 +1,4 @@
-window["mapPie"].default.render({
+window["myCustomVisual"].default.render({
 
   htmlJContent() {
 
