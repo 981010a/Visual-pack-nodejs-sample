@@ -61,6 +61,5 @@ npm run publish
  - Then, I run **npm install**
  - Next, I import the AmCharts' scripts in app.js
  - After that, I run the code using localhost and it is working
- - When comes to publishing to GIANT, the visual pack is not appearing in GIANT after I run **npm publish** 
- 
- (the cookie and URL are correct, the visual pack is showing if there is no AmCharts dependencies)
+ - When comes to publishing to GIANT, the visual pack is not appearing in GIANT after I run **npm publish**
+  -(the cookie and URL are correct, the visual pack is showing if there is no AmCharts dependencies)
