@@ -21,7 +21,6 @@
     - publish/config.js install.visualConfig
     - publish/config.js install.authcookie **GIANT WEB ACCESS COOKIE**
     - publish/config.js install.giantUrl **RELATIVE TO AUTH COOKIE**
-    Example:http://172.16.53.228/WebSites/Analytics/
 
 ## Development Files
 
