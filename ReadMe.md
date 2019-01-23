@@ -61,4 +61,5 @@ According to [AmCharts](https://www.amcharts.com/docs/v4/getting-started/integra
  - Then I run **npm install**
  - Then, I import the AmCharts' scripts in app.js
  - After that, I run the code using localhost and it is working
- - When comes to publishing to GIANT, the visual pack is not appearing in GIANT after I published (the cookie and URL are correct)
+ - When comes to publishing to GIANT, the visual pack is not appearing in GIANT after I published 
+ (the cookie and URL are correct)
